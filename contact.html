@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC School - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="contact">
+    <form onsubmit="return sendMessage()">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <p id="response"></p>
+    </form>
+</section>
+
+<footer>
+    <p>📞 +91 9876543210 | 📧 info@abcschool.com</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
